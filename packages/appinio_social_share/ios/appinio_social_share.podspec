@@ -16,8 +16,8 @@ A new Flutter project.
   # Shared with the Swift Package Manager target — single source of truth.
   s.source_files = 'appinio_social_share/Sources/appinio_social_share/**/*.swift'
   s.dependency 'Flutter'
-  s.dependency 'FBSDKCoreKit', '18.0.2'
-  s.dependency 'FBSDKShareKit', '18.0.2'
+  s.dependency 'FBSDKCoreKit', '>= 18.0.2', '< 19.0'
+  s.dependency 'FBSDKShareKit', '>= 18.0.2', '< 19.0'
   s.static_framework = true
 
   s.platform = :ios, '11.0'
